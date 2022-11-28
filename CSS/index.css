@@ -1,0 +1,70 @@
+:root {
+    --black: #000000;
+    --white: #FFFFFF;
+    --almost-white: #DCDCDC;
+    --light-purple: #C0BADC;
+    --purple: #846BFB;
+    --dark-purple: #4B26FF;
+}
+
+html {
+    background: url(/images/william-bout-264826-min.jpg);
+    max-height: 200px;
+    background-blend-mode: soft-light;
+    background-color: var(--almost-white);
+    background-position: 100%;
+}
+
+header, footer {
+    background-color: var(--black);
+    padding: 30px;
+    color: var(--white);
+}
+
+.header {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pics {
+    width: 20%;
+}
+
+h1 {
+    font-family: 'Krona One', sans-serif;
+}
+
+h2 {
+    font-family: 'Share Tech', sans-serif;
+}
+
+p, ul, a {
+    font-family: 'Montserrat Alternate', sans-serif;
+}
+
+.cta {
+    background-color: var(--purple);
+    padding: 10px 20px;
+    color: var(--white);
+    font-size: large;
+    font-weight: bold;
+    outline: auto var(--dark-purple);
+}
+
+.front-card {
+    background-color: var(--light-purple);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bold {
+    font-weight: bold;
+}
