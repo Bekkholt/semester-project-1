@@ -9,15 +9,27 @@
 
 html {
     background: url(/images/unsplash_7JX0-bfiuxQ.png);
-    height: fit-content;
-    width: fit-content;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.line {
+    align-self: center;
+    margin: 30px;
+    max-width: 40%;
 }
 
 header, footer {
     background-color: var(--black);
     padding: 20px;
     color: var(--white);
-    width: 100%;
 }
 
 .header {
@@ -58,6 +70,10 @@ p, ul, a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-self: center;
+    max-width: 80%;
+    padding: 10px;
+    margin: 30px;
 }
 
 .welcome {
