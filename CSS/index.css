@@ -127,7 +127,9 @@ p {
 
 footer {
     display: flex;
+    flex-wrap: wrap;
     line-height: 0.7;
     font-size: small;
     justify-content: space-between;
+    padding-bottom: 0;
 }
