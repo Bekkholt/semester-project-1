@@ -33,7 +33,12 @@ header, footer {
     color: var(--white);
 }
 
-.header {
+header {
+    position: sticky; 
+    top: 0;
+}
+
+.bar {
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -72,9 +77,10 @@ p, ul, a {
     flex-direction: column;
     align-items: center;
     align-self: center;
-    max-width: 80%;
     padding: 10px;
     margin: 30px;
+    height: 250px;
+    width: 300px;
 }
 
 .welcome {
@@ -115,4 +121,10 @@ p {
     align-self: flex-end;
     margin-right: 15px;
 
+}
+
+footer {
+    display: flex;
+    line-height: 0.7;
+    font-size: small;
 }
