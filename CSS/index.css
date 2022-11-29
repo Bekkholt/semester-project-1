@@ -9,6 +9,7 @@
 
 html {
     background: url(/images/unsplash_7JX0-bfiuxQ.png);
+    background-size: cover;
 }
 
 body {
@@ -108,4 +109,10 @@ p {
     align-self: flex-end;
     padding-right: 2%;
     padding-bottom: 2%;
+}
+
+.more {
+    align-self: flex-end;
+    margin-right: 15px;
+
 }
