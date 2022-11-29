@@ -8,27 +8,22 @@
 }
 
 html {
-    background: url(/images/william-bout-264826-min.jpg);
-    max-height: 200px;
-    background-blend-mode: soft-light;
-    background-color: var(--almost-white);
-    background-position: 100%;
+    background: url(/images/unsplash_7JX0-bfiuxQ.png);
+    height: fit-content;
+    width: fit-content;
 }
 
 header, footer {
     background-color: var(--black);
-    padding: 30px;
+    padding: 20px;
     color: var(--white);
+    width: 100%;
 }
 
 .header {
     list-style: none;
     display: flex;
     justify-content: space-between;
-}
-
-.pics {
-    width: 20%;
 }
 
 h1 {
@@ -39,8 +34,12 @@ h2 {
     font-family: 'Share Tech', sans-serif;
 }
 
+a {
+    color: var(--white);
+}
+
 p, ul, a {
-    font-family: 'Montserrat Alternate', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     text-decoration: none;
 }
 
@@ -71,11 +70,26 @@ p, ul, a {
     font-weight: bold;
 }
 
-.logo {
+.logo, .content {
     display: flex;
     align-items: center;
 }
 
 .logo-text {
     margin-top: 0px;
+}
+
+.right {
+    align-items: flex-end;
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+}
+
+.arrow {
+    align-self: flex-end;
+    padding-right: 2%;
+    padding-bottom: 2%;
 }
