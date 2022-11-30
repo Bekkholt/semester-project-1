@@ -80,8 +80,12 @@ p, ul, a {
     align-self: center;
     padding: 10px;
     margin: 30px;
-    height: 250px;
+    height: fit-content;
     width: 300px;
+}
+
+.pics {
+    margin: 10px;
 }
 
 .welcome {
