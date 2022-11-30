@@ -75,6 +75,7 @@ p, ul, a {
 
 .front-card {
     background-color: var(--light-purple);
+    color: var(--black);
     display: flex;
     flex-direction: column;
     align-items: center;
