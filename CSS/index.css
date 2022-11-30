@@ -166,3 +166,7 @@ footer {
 .text {
     padding: 0px 50px;
 }
+
+.large {
+    font-size: larger;
+}
