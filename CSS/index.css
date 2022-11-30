@@ -170,3 +170,7 @@ footer {
 .large {
     font-size: larger;
 }
+
+.middle {
+    align-self: center;
+}
