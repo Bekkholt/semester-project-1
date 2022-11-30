@@ -125,12 +125,6 @@ p {
     padding-bottom: 2%;
 }
 
-.more {
-    align-self: flex-end;
-    margin-right: 15px;
-
-}
-
 footer {
     display: flex;
     flex-wrap: wrap;
@@ -138,4 +132,8 @@ footer {
     font-size: small;
     justify-content: space-between;
     padding-bottom: 0;
+}
+
+.non-list {
+    list-style: none;
 }
