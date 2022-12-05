@@ -5,6 +5,8 @@
     --light-purple: #C0BADC;
     --purple: #9747FF;
     --dark-purple: #4B26FF;
+    --cta-hover: #5C3AFF;
+    --card-hover: #9D8FDC;
 }
 
 html {
@@ -163,10 +165,6 @@ footer {
     flex-direction: column;
 }
 
-.text {
-    padding: 0px 50px;
-}
-
 .large {
     font-size: larger;
 }
@@ -174,7 +172,11 @@ footer {
 .form {
     display: flex;
     flex-direction: column;
-    align-self: center;
-    min-width: fit-content;
     padding-bottom: 10px;
+}
+
+@media (min-width: 800px) {
+    .front-card {
+        width: 400px;
+    }
 }
