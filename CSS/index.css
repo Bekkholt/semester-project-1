@@ -60,7 +60,7 @@ a {
     color: var(--white);
 }
 
-p, ul, a {
+p, ul, a, label {
     font-family: 'Montserrat Alternates', sans-serif;
     text-decoration: none;
 }
@@ -175,6 +175,6 @@ footer {
     display: flex;
     flex-direction: column;
     align-self: center;
-    width: fit-content;
+    min-width: fit-content;
     padding-bottom: 10px;
 }
