@@ -196,4 +196,8 @@ img, p {
     .links:hover, .back:hover {
         color: var(--a-hover);
     }
+
+    a {
+        font-size: xx-large;
+    }
 }
