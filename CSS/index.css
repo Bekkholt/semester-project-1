@@ -187,4 +187,12 @@ img, p {
     .bar {
         justify-content: space-around;
     }
+
+    .front-img {
+        width: 150px;
+    }
+
+    .bigger-img {
+        width: 25%;
+    }
 }
