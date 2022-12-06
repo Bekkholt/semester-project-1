@@ -183,4 +183,8 @@ img, p {
     .front-card {
         width: 400px;
     }
+
+    .bar {
+        justify-content: space-around;
+    }
 }
