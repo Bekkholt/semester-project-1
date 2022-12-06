@@ -90,10 +90,6 @@ p, ul, a, label {
     width: 300px;
 }
 
-.pics {
-    margin: 10px;
-}
-
 .welcome {
     display: flex;
     flex-direction: column;
@@ -150,6 +146,10 @@ footer {
     margin-top: 50px;
 }
 
+img, p {
+    padding: 2%;
+}
+
 .back {
     font-family: 'Share Tech', sans-serif;
     font-weight: bold;
@@ -173,6 +173,10 @@ footer {
     display: flex;
     flex-direction: column;
     padding-bottom: 10px;
+}
+
+.main-text {
+    padding: 0 50px;
 }
 
 @media (min-width: 800px) {
