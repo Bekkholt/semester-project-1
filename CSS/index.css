@@ -169,8 +169,8 @@ img, p {
 }
 
 @media (min-width: 800px) {
-    .card {
-        width: 400px;
+    .front {
+        width: 800px;
     }
 
     .bar {
@@ -178,7 +178,7 @@ img, p {
     }
 
     .front-img {
-        width: 150px;
+        width: 200px;
     }
 
     .bigger-img {
@@ -198,6 +198,14 @@ img, p {
     }
 
     a {
+        font-size: xx-large;
+    }
+
+    .logo-img {
+        width: 50px;
+    }
+
+    h1, h2 {
         font-size: xx-large;
     }
 }
