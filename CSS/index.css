@@ -205,7 +205,16 @@ img, p {
         width: 50px;
     }
 
-    h1, h2 {
+    h1, h2, {
         font-size: xx-large;
     }
+
+    p {
+        font-size: x-large;
+    }
+
+    .card {
+        width: 500px;
+    }
+    
 }
