@@ -113,6 +113,12 @@ p, ul, a, label {
 
 .right {
     align-items: flex-end;
+    text-align: right;
+}
+
+.left {
+    align-items: flex-start;
+    text-align: left;
 }
 
 .arrow {
@@ -127,7 +133,6 @@ footer {
     line-height: 0.7;
     font-size: small;
     justify-content: space-between;
-    padding-bottom: 0;
 }
 
 .non-list {
@@ -215,7 +220,6 @@ img, p {
 
     p {
         font-size: larger;
-        text-align: center;
     }
 
     .card {
