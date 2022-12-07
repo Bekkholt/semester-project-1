@@ -215,13 +215,14 @@ img, p {
 
     p {
         font-size: larger;
+        text-align: center;
     }
 
     .card {
         width: 500px;
     }
 
-    .cta {
+    .book-tour {
         width: 100px;
     }
 
