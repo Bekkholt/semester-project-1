@@ -142,6 +142,11 @@ img, p {
     padding: 2%;
 }
 
+.bigger-img {
+    width: fit-content;
+    align-self: center;
+}
+
 .back {
     font-family: 'Share Tech', sans-serif;
     font-weight: bold;
@@ -182,10 +187,6 @@ img, p {
 
     .front-img {
         width: 200px;
-    }
-
-    .bigger-img {
-        width: 25%;
     }
 
     .cta:hover {
