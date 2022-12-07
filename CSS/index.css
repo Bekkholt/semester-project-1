@@ -90,6 +90,7 @@ p, ul, a, label {
     margin-bottom: 20px;
     height: fit-content;
     width: 300px;
+    border-radius: 3px;
 }
 
 .welcome {
