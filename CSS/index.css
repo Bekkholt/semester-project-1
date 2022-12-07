@@ -235,4 +235,9 @@ img, p {
         width: 100px;
     }
 
+    .back {
+        text-align: left;
+        align-self: flex-start;
+    }
+
 }
