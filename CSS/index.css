@@ -177,13 +177,17 @@ img, p {
 
 .main-text {
     text-align: center;
-    padding-top: 0;
+    color: var(--black);
+    align-items: center;
+    align-self: center;
+    height: fit-content;
+    width: 400px;
+    padding: 0;
 }
 
 .no-padding {
     padding: 0;
 }
-
 
 
 @media (min-width: 800px) {
