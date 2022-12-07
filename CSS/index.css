@@ -19,7 +19,7 @@ body {
     margin: 0;
 }
 
-main, p, .welcome, .card, .column, .form {
+main, .welcome, .card, .column, .form {
     display: flex;
     flex-direction: column;
 }
@@ -161,12 +161,15 @@ img, p {
 }
 
 .main-text {
-    padding: 0 50px;
+    text-align: center;
+    padding-top: 0;
 }
 
 .no-padding {
     padding: 0;
 }
+
+
 
 @media (min-width: 800px) {
     .front {
@@ -198,23 +201,23 @@ img, p {
     }
 
     a {
-        font-size: xx-large;
+        font-size: x-large;
     }
 
     .logo-img {
         width: 50px;
     }
 
-    h1, h2, {
+    h1, h2 {
         font-size: xx-large;
     }
 
     p {
-        font-size: x-large;
+        font-size: larger;
     }
 
     .card {
         width: 500px;
-    }
-    
+    }   
+
 }
