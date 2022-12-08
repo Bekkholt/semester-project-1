@@ -181,8 +181,9 @@ img, p {
     align-items: center;
     align-self: center;
     height: fit-content;
-    width: 400px;
-    padding: 0;
+    min-width: 200px;
+    max-width: 400px;
+    padding: 0 10px;
 }
 
 .no-padding {
@@ -193,6 +194,16 @@ input {
     background-color: var(--almost-white);
     border: none;
     border-radius: 3px;
+}
+
+@media (max-width: 360px) {
+    .logo-text {
+        font-size: medium;
+    }
+
+    .card {
+        width: 250px;
+    }
 }
 
 
