@@ -44,6 +44,15 @@ header {
     top: 0;
 }
 
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 0.7;
+    font-size: small;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
 .bar {
     list-style: none;
     display: flex;
@@ -133,15 +142,6 @@ p, ul, a, label {
     padding-bottom: 2%;
 }
 
-footer {
-    display: flex;
-    flex-wrap: wrap;
-    line-height: 0.7;
-    font-size: small;
-    justify-content: space-between;
-    margin-top: auto;
-}
-
 .non-list {
     list-style: none;
 }
@@ -211,7 +211,6 @@ input {
         width: 250px;
     }
 }
-
 
 @media (min-width: 800px) {
     .front {
