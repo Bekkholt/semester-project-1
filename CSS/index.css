@@ -204,6 +204,10 @@ input {
     .card {
         width: 250px;
     }
+
+    .bigger-img, .card-img {
+        width: 250px;
+    }
 }
 
 
