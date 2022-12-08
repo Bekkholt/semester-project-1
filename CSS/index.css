@@ -54,11 +54,13 @@ header {
 h1 {
     font-family: 'Krona One', sans-serif;
     align-self: center;
-    text-align: center;
 }
 
 h2 {
     font-family: 'Share Tech', sans-serif;
+}
+
+h1, h2 {
     text-align: center;
 }
 
@@ -264,5 +266,4 @@ input {
         text-align: left;
         align-self: flex-start;
     }
-
 }
