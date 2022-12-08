@@ -189,6 +189,12 @@ img, p {
     padding: 0;
 }
 
+input {
+    background-color: var(--almost-white);
+    border: none;
+    border-radius: 3px;
+}
+
 
 @media (min-width: 800px) {
     .front {
