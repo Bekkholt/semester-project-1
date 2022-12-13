@@ -203,11 +203,7 @@ input {
         font-size: medium;
     }
 
-    .card {
-        width: 250px;
-    }
-
-    .bigger-img, .card-img {
+    .card, .bigger-img, .card-img {
         width: 250px;
     }
 }
