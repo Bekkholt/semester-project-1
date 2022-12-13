@@ -8,6 +8,8 @@
     --cta-hover: #5C3AFF;
     --card-hover: #9D8FDC;
     --a-hover: #846BFB;
+    --small-padding: 10px;
+    --medium-padding: 20px;
 }
 
 html {
@@ -35,7 +37,7 @@ main, .welcome, .card, .column, .form {
 
 header, footer {
     background-color: var(--black);
-    padding: 20px;
+    padding: var(--medium-padding);
     color: var(--white);
 }
 
@@ -84,7 +86,7 @@ p, ul, a, label {
 
 .cta {
     background-color: var(--purple);
-    padding: 10px 20px;
+    padding: var(--small-padding) var(--medium-padding);
     color: var(--white);
     font-size: large;
     font-weight: bold;
@@ -97,8 +99,8 @@ p, ul, a, label {
     color: var(--black);
     align-items: center;
     align-self: center;
-    padding: 10px;
-    margin-bottom: 20px;
+    padding: var(--small-padding);
+    margin-bottom: var(--medium-padding);
     height: fit-content;
     width: 300px;
     border-radius: 3px;
@@ -166,7 +168,7 @@ img, p {
     font-size: x-large;
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: var(--small-padding);
 }
 
 .large {
@@ -174,7 +176,7 @@ img, p {
 }
 
 .form {
-    padding-bottom: 10px;
+    padding-bottom: var(--small-padding);
 }
 
 .main-text {
@@ -185,7 +187,7 @@ img, p {
     height: fit-content;
     min-width: 200px;
     max-width: 400px;
-    padding: 0 10px;
+    padding: 0 var(--small-padding);
 }
 
 .no-padding {
