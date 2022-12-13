@@ -128,14 +128,14 @@ p, ul, a, label {
     text-align: center;
 }
 
+.logo-text2 {
+    margin: auto;
+    padding: var(--medium-padding) 0;
+}
+
 .right {
     align-items: flex-end;
     text-align: right;
-}
-
-.left {
-    align-items: flex-start;
-    text-align: left;
 }
 
 .arrow {
