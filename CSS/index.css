@@ -1,6 +1,6 @@
 :root {
     --black: #222222;
-    --white: #DDDDDD;
+    --white: #CCCCCC;
     --almost-white: #DCDCDC;
     --light-purple: #C0BADC;
     --purple: #9747FF;
@@ -87,7 +87,7 @@ p, ul, a, label {
 .cta {
     background-color: var(--purple);
     padding: var(--small-padding) var(--medium-padding);
-    color: var(--white);
+    color: var(--almost-white);
     font-size: large;
     font-weight: bold;
     outline: auto var(--dark-purple);
