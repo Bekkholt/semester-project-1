@@ -15,7 +15,7 @@ Community Science Museum is a family friendly science museum, also perfect for s
 Clone the repo:
 
 ```bash
-git clone https://github.com/Noroff-FEU-Assignments/cross-course-project-Bekkholt
+git clone https://github.com/Bekkholt/semester-project-1
 ```
 
 ### See the site locally
