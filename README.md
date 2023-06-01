@@ -36,10 +36,6 @@ https://chic-macaron-186757.netlify.app/
 
 https://www.figma.com/file/CRi4aWIKCt8Dm48TAwcaPO/Semester-project-1?node-id=0%3A1&t=6gWLlffcQKSTEsl9-1
 
-## Further comments
-
-Some design changes has been done to the desktop version. This has been a difficult decision, only based on how I felt it looked myself. There is no other reason to these changes other than me feeling that it actually looked better having more similarity between both mobile and desktop version.
-
 ## Contact
 
 Tina Bekkholt
